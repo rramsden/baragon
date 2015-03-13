@@ -1,0 +1,27 @@
+{
+  "name": "baragon",
+  "version": "0.0.1",
+  "description": "A node.js client generator for API's represented in JSON Schema",
+  "main": "lib/baragon.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rramsden/baragon.git"
+  },
+  "keywords": [
+    "json",
+    "schema"
+  ],
+  "author": "Richard Ramsden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rramsden/baragon/issues"
+  },
+  "homepage": "https://github.com/rramsden/baragon",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}

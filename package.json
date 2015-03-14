@@ -23,6 +23,7 @@
   "devDependencies": {
     "chai": "*",
     "mocha": "*",
+    "temp": "^0.8.1",
     "underscore": "^1.8.2"
   },
   "dependencies": {

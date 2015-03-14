@@ -4,7 +4,7 @@
   "description": "A node.js client generator for API's represented in JSON Schema",
   "main": "lib/baragon.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
   "homepage": "https://github.com/rramsden/baragon",
   "devDependencies": {
     "chai": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "underscore": "^1.8.2"
+  },
+  "dependencies": {
+    "mustache": "^1.1.0"
   }
 }
